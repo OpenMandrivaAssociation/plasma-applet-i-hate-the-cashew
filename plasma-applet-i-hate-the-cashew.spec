@@ -1,4 +1,4 @@
-%define version  0.2
+%define version  0.3
 %define release  %mkrel 1 
 
 Name:		 plasma-applet-i-hate-the-cashew
