@@ -1,5 +1,5 @@
-%define version 0.3
-%define release %mkrel 2
+%define version 0.4
+%define release %mkrel 1
 
 Name:		plasma-applet-i-hate-the-cashew
 Version:	%{version}
@@ -7,15 +7,15 @@ Release:	%{release}
 License:	GPLv2+
 Url:		http://www.kde.org/
 Group:		Graphical desktop/KDE
-Source0:	91009-iHateTheCashew-4.2.tbz
-Patch0:		plasma-applet-ihatethecashew-fix-category.patch
+Source0:	http://www.kde-look.org/CONTENT/content-files/91009-iHateTheCashew-4.4.tbz
+# Fix categories according to http://techbase.kde.org/Projects/Plasma/PIG#Category_Names
+Patch0:		plasma-applet-ihatethecashew-0.4-mdv-fix-category.patch
 Summary:	Plasmoid that remove the Cashew
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	kdelibs4-devel
 BuildRequires:	kdebase4-workspace-devel
-Provides:	plasma-applet
 Requires:	kdebase4-runtime
-
+Provides:	plasma-applet
+  
 %description 
 Plasmoid that remove the Cashew
 
@@ -36,10 +36,8 @@ Plasmoid that remove the Cashew
 %make
 
 %install
-cd build
-rm -rf %buildroot
-%{makeinstall_std}
-
+%__rm -rf %buildroot
+%makeinstall_std -C build
 
 %clean
-rm -rf %buildroot
+%__rm -rf %buildroot
