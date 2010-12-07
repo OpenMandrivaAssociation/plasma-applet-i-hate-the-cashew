@@ -1,5 +1,5 @@
 %define version 0.4
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:		plasma-applet-i-hate-the-cashew
 Version:	%{version}
