@@ -1,0 +1,13 @@
+Index: plasma-applet-ihatethecashew.desktop
+===================================================================
+--- plasma-applet-ihatethecashew.desktop
++++ plasma-applet-ihatethecashew.desktop	2009-12-19 08:56:39.073424190 -0300
+@@ -12,7 +12,7 @@
+ X-KDE-PluginInfo-Email=thomas.luebking@web.de
+ X-KDE-PluginInfo-Name=ihatethecashew
+ X-KDE-PluginInfo-Version=0.4
+-X-KDE-PluginInfo-Category=Desktop
++X-KDE-PluginInfo-Category=Graphics
+ X-KDE-PluginInfo-Depends=
+ X-KDE-PluginInfo-License=GPL
+ X-KDE-PluginInfo-EnabledByDefault=true
