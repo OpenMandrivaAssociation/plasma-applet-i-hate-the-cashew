@@ -5,7 +5,7 @@ Name:		plasma-applet-i-hate-the-cashew
 Version:	%{version}
 Release:	%{release}
 License:	GPLv2+
-Url:		http://www.kde.org/
+Url:		https://www.kde.org/
 Group:		Graphical desktop/KDE
 Source0:	http://www.kde-look.org/CONTENT/content-files/91009-iHateTheCashew-4.4.tbz
 # Fix categories according to http://techbase.kde.org/Projects/Plasma/PIG#Category_Names
