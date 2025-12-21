@@ -12,6 +12,7 @@ Source0:	http://www.kde-look.org/CONTENT/content-files/91009-iHateTheCashew-4.4.
 Patch0:		plasma-applet-ihatethecashew-0.4-mdv-fix-category.patch
 Summary:	Plasmoid that remove the Cashew
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires:	kdebase4-workspace-devel
 Requires:	kdebase4-runtime
 Provides:	plasma-applet
